@@ -1,4 +1,4 @@
-Enriquez Bishop Jose Alberto
+﻿Enriquez Bishop Jose Alberto
 Barrera Joel Manuel
 
 a-¿Como queda El master después de estos cambios?
@@ -14,3 +14,20 @@ git pull origin Enriquez
 git add .
 git commit
 git push origin main
+
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+no, no quedan con datos actualizados
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+Al intentar hacer el merge de la rama Enriquez hacia el main surgio un problema al pushearlo.
+Se soluciono con un git pull origin Enriquez para actualizarla
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git checkout Barrera
+echo "Jose Alberto Enriquez Bishop" >> beta.txt
+ipconfig.exe >> beta.txt
+echo "01:02" >> beta.txt
+git add .
+git commit -m "punto 8"
+git push origin Barrera
+
