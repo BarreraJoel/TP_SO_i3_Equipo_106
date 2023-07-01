@@ -1,0 +1,16 @@
+Enriquez Bishop Jose Alberto
+Barrera Joel Manuel
+
+a-¿Como queda El master después de estos cambios?
+Con todos los archivos de las demás ramas luego de hacer merge.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Si, los pudo ver.
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+Ubicado en la rama main:
+git merge Enriquez
+git pull origin Enriquez
+git add .
+git commit
+git push origin main
